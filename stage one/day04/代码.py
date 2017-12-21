@@ -15,6 +15,8 @@ print(name)
 print(len(name))
 print(name[1])
 
+
+
 #问题:会不会出现问题？索引越界的问题
 name_list=[1,'ben',3.14]
 print(name_list[len(name_list)-1])#这种方式取最后一个元素不科学
